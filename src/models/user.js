@@ -56,7 +56,7 @@ const schema = new mongoose.Schema(
         _id: this._id
       },
       process.env.JWT_SECRET,
-      { expiresIn: "1s" }
+      { expiresIn: "1h" }
     );
   };
 
